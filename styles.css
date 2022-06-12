@@ -31,9 +31,6 @@ body{
 
 /* Media Queries */
 @media (max-width: 700px) {
-    body{
-        height: 100%;
-    }
     .container{
         display: flex;
         align-items: center;
@@ -41,6 +38,6 @@ body{
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 11%;
-        font-size: 42px;
+        font-size: 35px;
     }
   }
