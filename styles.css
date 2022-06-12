@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Krona+One&display=swap');
+
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: #fbfbfb;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    padding: 4%;
+    font-family: 'Belleza', sans-serif;
+    font-size:  42px;
+    color: black;
+    border-radius: 5px;
+}
+
+#this-week, #this-week-percentage{
+    color:coral;
+}
+#day-number, #day-percentage{
+    color:darksalmon;
+}
+#weeks-until-trip{
+    color: cadetblue;
+}
+#weeks-until-end, #weeks-end-percentage{
+    color:blueviolet;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+    body{
+        height: 100%;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 11%;
+        font-size: 42px;
+    }
+  }
